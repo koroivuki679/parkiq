@@ -1,7 +1,7 @@
 package parkIQ.testCases;
 
 
-import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -42,35 +42,32 @@ public class BaseClass {
 		logger =Logger.getLogger("parkIQ");
 		PropertyConfigurator.configure("log4j.properties");
 		
-		if (brwsr.equals("chrome"))
+		if(brwsr.equals("chrome"))
 				{
-					System.setProperty("webdriver.chrome.driver",readConfig.getChromePath());
+					System.setProperty("webdriver.chrome.driver",chromedriverPath);
 					driver=new ChromeDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-					
 				}
 		
 		else if(brwsr.equals("firefox"))
 				{
-					System.setProperty("webdriver.gecko.driver",readConfig.getFirefoxPath());
+					System.setProperty("webdriver.gecko.driver",geckodriverPath);
 					driver=new FirefoxDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 				}
 				
 		else if(brwsr.equals("microsoft_edge"))
 				{
-					System.setProperty("webdriver.edge.driver",readConfig.getMsEdgePath());
+					System.setProperty("webdriver.edge.driver",msedgedriverPath);
 					driver=new EdgeDriver();
-					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
 				}
 		
 		else if(brwsr.equals("opera"))
 		{
-			System.setProperty("webdriver.opera.driver",readConfig.getOperaPath());
+			System.setProperty("webdriver.opera.driver",operadriverPath);
 			driver=new OperaDriver();
-			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		}
-		
+
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 		
 	}

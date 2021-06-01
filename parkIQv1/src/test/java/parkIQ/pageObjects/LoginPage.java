@@ -1,11 +1,14 @@
 package parkIQ.pageObjects;
 
 //import org.openqa.selenium.By;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 	
@@ -13,7 +16,7 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver rdriver) //a constructor; ldiver = local driver, rdriver = remote driver
 	{
-		ldriver=rdriver;
+		this.ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
 		
 	}
@@ -21,18 +24,35 @@ public class LoginPage {
 		//WebElement txtEmail = ldriver.findElement(By.id("Email"));
 		@FindBy(xpath="//input[@id='Email']")
 		@CacheLookup
-		WebElement txtEmail ;
+		WebElement txtEmail;
 		
 		@FindBy(xpath="//input[@id='Password']")
 		@CacheLookup
-		WebElement txtPassword ;
+		WebElement txtPassword;
 		
 		@FindBy(xpath="//button[@type='submit']")
 		@CacheLookup
-		WebElement btnLogin ;
+		WebElement btnLogin;
+
+		@FindBy(xpath="//a[contains(text(),'Forgot your password?')]")
+		@CacheLookup
+		WebElement linkForgotPassword;
+
+		@FindBy(xpath="//a[contains(text(),\"Don't have an account?\")]")
+		@CacheLookup
+		WebElement linkNoAccount;
+
+		@FindBy(xpath="//body/nav[1]/a[1]/img[1]")
+		@CacheLookup
+		WebElement logo;
+
 		
 		//action methods
-		
+		public void checkLogo()
+		{
+			WebDriverWait waitElement = new WebDriverWait(ldriver, 20);
+			waitElement.until(ExpectedConditions.visibilityOf(logo));
+		}
 		public void setEmail(String uname )
 		{
 			txtEmail.sendKeys(uname);
@@ -44,5 +64,9 @@ public class LoginPage {
 		public void clickSubmit()
 		{
 			btnLogin.click();
+		}
+		public void clickForgotPasswordLink()
+		{
+			linkForgotPassword.click();
 		}
 }

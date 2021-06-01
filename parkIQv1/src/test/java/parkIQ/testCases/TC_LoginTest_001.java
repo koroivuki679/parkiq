@@ -16,6 +16,8 @@ public class TC_LoginTest_001 extends BaseClass {
 		logger.info("URL is opened");
 		
 		LoginPage lp= new LoginPage(driver);
+		lp.checkLogo();
+		logger.info("Logo Displayed");
 		lp.setEmail(email);
 		logger.info("Entered Email");
 		lp.setPassword(password);
@@ -29,7 +31,7 @@ public class TC_LoginTest_001 extends BaseClass {
 			
 		}
 		else {
-			Assert.assertTrue(false);
+			Assert.assertFalse(false);
 			logger.info("Login test failed");
 		}
 	}

@@ -50,3 +50,94 @@
 2021-06-01 11:42:07,107 [main] INFO parkIQ - Entered Email
 2021-06-01 11:42:07,291 [main] INFO parkIQ - Entered Password
 2021-06-01 11:46:32,071 [main] INFO parkIQ - Login test passed
+2021-06-01 14:33:08,661 [main] INFO parkIQ - URL is opened
+2021-06-01 14:33:21,095 [main] INFO parkIQ - Entered Email
+2021-06-01 14:33:21,217 [main] INFO parkIQ - Entered Password
+2021-06-01 14:33:24,507 [main] INFO parkIQ - Login test passed
+2021-06-01 14:37:21,985 [main] INFO parkIQ - URL is opened
+2021-06-01 14:37:34,351 [main] INFO parkIQ - Entered Email
+2021-06-01 14:37:34,461 [main] INFO parkIQ - Entered Password
+2021-06-01 14:37:37,243 [main] INFO parkIQ - Login test passed
+2021-06-01 14:40:51,503 [main] INFO parkIQ - URL is opened
+2021-06-01 14:41:05,361 [main] INFO parkIQ - Entered Email
+2021-06-01 14:41:05,449 [main] INFO parkIQ - Entered Password
+2021-06-01 14:41:08,414 [main] INFO parkIQ - Login test passed
+2021-06-01 14:46:02,618 [main] INFO parkIQ - URL is opened
+2021-06-01 14:46:18,642 [main] INFO parkIQ - Entered Email
+2021-06-01 14:46:18,725 [main] INFO parkIQ - Entered Password
+2021-06-01 14:46:21,947 [main] INFO parkIQ - Login test passed
+2021-06-01 14:47:18,791 [main] INFO parkIQ - URL is opened
+2021-06-01 14:47:25,144 [main] INFO parkIQ - Entered Email
+2021-06-01 14:47:25,202 [main] INFO parkIQ - Entered Password
+2021-06-01 14:47:26,807 [main] INFO parkIQ - Login test passed
+2021-06-01 16:42:23,627 [main] INFO parkIQ - URL is opened
+2021-06-01 16:46:33,682 [main] INFO parkIQ - URL is opened
+2021-06-01 16:47:08,364 [main] INFO parkIQ - Logo Displayed
+2021-06-01 16:47:08,483 [main] INFO parkIQ - Entered Email
+2021-06-01 16:47:08,589 [main] INFO parkIQ - Entered Password
+2021-06-01 16:47:11,488 [main] INFO parkIQ - Login test passed
+2021-06-01 16:50:35,028 [main] INFO parkIQ - URL is opened
+2021-06-01 16:50:57,321 [main] INFO parkIQ - URL is opened
+2021-06-01 16:53:00,084 [main] INFO parkIQ - URL is opened
+2021-06-01 16:55:45,747 [main] INFO parkIQ - URL is opened
+2021-06-01 16:55:55,592 [main] INFO parkIQ - Logo Displayed
+2021-06-01 16:55:55,692 [main] INFO parkIQ - Entered Email
+2021-06-01 16:55:55,808 [main] INFO parkIQ - Entered Password
+2021-06-01 16:55:58,061 [main] INFO parkIQ - Login test passed
+2021-06-01 17:18:26,758 [main] INFO parkIQ - URL is opened
+2021-06-01 17:18:45,002 [main] INFO parkIQ - Logo Displayed
+2021-06-01 17:18:45,117 [main] INFO parkIQ - Entered Email
+2021-06-01 17:18:45,247 [main] INFO parkIQ - Entered Password
+2021-06-01 17:18:48,218 [main] INFO parkIQ - Login test passed
+2021-06-01 17:25:41,430 [main] INFO parkIQ - URL is opened
+2021-06-01 17:25:47,217 [main] INFO parkIQ - Logo Displayed
+2021-06-01 17:25:47,311 [main] INFO parkIQ - Entered Email
+2021-06-01 17:25:47,362 [main] INFO parkIQ - Entered Password
+2021-06-01 17:25:48,932 [main] INFO parkIQ - Login test passed
+2021-06-01 18:01:50,357 [main] INFO parkIQ - URL is opened
+2021-06-01 18:01:58,041 [main] INFO parkIQ - Logo Displayed
+2021-06-01 18:01:58,130 [main] INFO parkIQ - Entered Email
+2021-06-01 18:01:58,197 [main] INFO parkIQ - Entered Password
+2021-06-01 18:01:59,911 [main] INFO parkIQ - Login test passed
+2021-06-01 18:52:36,477 [main] INFO parkIQ - URL is opened
+2021-06-01 18:52:46,496 [main] INFO parkIQ - Logo Displayed
+2021-06-01 18:52:46,600 [main] INFO parkIQ - Entered Email
+2021-06-01 18:52:46,693 [main] INFO parkIQ - Entered Password
+2021-06-01 18:52:48,526 [main] INFO parkIQ - Login test passed
+2021-06-01 18:52:57,769 [main] INFO parkIQ - URL is opened
+2021-06-01 18:53:12,156 [main] INFO parkIQ - Forgot Password Clicked. Redirecting to forgot password page
+2021-06-01 18:53:12,198 [main] INFO parkIQ - Forgot Password Title displayed
+2021-06-01 18:53:12,325 [main] INFO parkIQ - Entered Email
+2021-06-01 18:53:13,928 [main] INFO parkIQ - Reset Button Clicked. Redirect to Reset Password Confirmation Page
+2021-06-01 18:53:13,940 [main] INFO parkIQ - Forgot Password test passed
+2021-06-01 19:00:24,731 [main] INFO parkIQ - URL is opened
+2021-06-01 19:00:38,176 [main] INFO parkIQ - Logo Displayed
+2021-06-01 19:00:38,270 [main] INFO parkIQ - Entered Email
+2021-06-01 19:00:38,365 [main] INFO parkIQ - Entered Password
+2021-06-01 19:00:40,206 [main] INFO parkIQ - Login test passed
+2021-06-01 19:00:47,836 [main] INFO parkIQ - URL is opened
+2021-06-01 19:00:56,787 [main] INFO parkIQ - Forgot Password Clicked. Redirecting to forgot password page
+2021-06-01 19:00:56,833 [main] INFO parkIQ - Forgot Password Title displayed
+2021-06-01 19:00:56,942 [main] INFO parkIQ - Entered Email
+2021-06-01 19:00:58,352 [main] INFO parkIQ - Reset Button Clicked. Redirect to Reset Password Confirmation Page
+2021-06-01 19:00:58,389 [main] INFO parkIQ - Reset Prompt Displayed
+2021-06-01 19:00:58,398 [main] INFO parkIQ - Forgot Password test passed
+2021-06-01 19:11:37,544 [main] INFO parkIQ - URL is opened
+2021-06-01 19:11:46,954 [main] INFO parkIQ - Logo Displayed
+2021-06-01 19:11:47,061 [main] INFO parkIQ - Entered Email
+2021-06-01 19:11:47,156 [main] INFO parkIQ - Entered Password
+2021-06-01 19:11:49,104 [main] INFO parkIQ - Login test passed
+2021-06-01 19:11:59,675 [main] INFO parkIQ - URL is opened
+2021-06-01 19:13:50,693 [main] INFO parkIQ - URL is opened
+2021-06-01 19:14:01,482 [main] INFO parkIQ - Logo Displayed
+2021-06-01 19:14:01,591 [main] INFO parkIQ - Entered Email
+2021-06-01 19:14:01,683 [main] INFO parkIQ - Entered Password
+2021-06-01 19:14:03,447 [main] INFO parkIQ - Login test passed
+2021-06-01 19:14:10,435 [main] INFO parkIQ - URL is opened
+2021-06-01 19:14:18,844 [main] INFO parkIQ - Logo Displayed
+2021-06-01 19:14:19,292 [main] INFO parkIQ - Forgot Password Clicked. Redirecting to forgot password page
+2021-06-01 19:14:19,339 [main] INFO parkIQ - Forgot Password Title displayed
+2021-06-01 19:14:19,521 [main] INFO parkIQ - Entered Email
+2021-06-01 19:14:21,030 [main] INFO parkIQ - Reset Button Clicked. Redirect to Reset Password Confirmation Page
+2021-06-01 19:14:21,068 [main] INFO parkIQ - Reset Prompt Displayed
+2021-06-01 19:14:21,079 [main] INFO parkIQ - Forgot Password test passed
