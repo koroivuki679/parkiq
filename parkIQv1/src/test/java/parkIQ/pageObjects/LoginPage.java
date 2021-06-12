@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import parkIQ.common.WebElementFunctions;
 
 public class LoginPage {
 	
@@ -22,51 +23,25 @@ public class LoginPage {
 	}
 
 		//WebElement txtEmail = ldriver.findElement(By.id("Email"));
-		@FindBy(xpath="//input[@id='Email']")
+		@FindBy(id="txtEmail")
 		@CacheLookup
 		WebElement txtEmail;
 		
-		@FindBy(xpath="//input[@id='Password']")
+		@FindBy(id="txtPassword")
 		@CacheLookup
 		WebElement txtPassword;
 		
-		@FindBy(xpath="//button[@type='submit']")
+		@FindBy(id="btnSubmit")
 		@CacheLookup
-		WebElement btnLogin;
+		WebElement btnSubmit;
 
-		@FindBy(xpath="//a[contains(text(),'Forgot your password?')]")
-		@CacheLookup
-		WebElement linkForgotPassword;
+		WebElementFunctions func = new WebElementFunctions();
 
-		@FindBy(xpath="//a[contains(text(),\"Don't have an account?\")]")
-		@CacheLookup
-		WebElement linkNoAccount;
-
-		@FindBy(xpath="//body/nav[1]/a[1]/img[1]")
-		@CacheLookup
-		WebElement logo;
-
-		
-		//action methods
-		public void checkLogo()
+		public void fillCredentials(String user, String psswd)
 		{
-			WebDriverWait waitElement = new WebDriverWait(ldriver, 20);
-			waitElement.until(ExpectedConditions.visibilityOf(logo));
-		}
-		public void setEmail(String uname )
-		{
-			txtEmail.sendKeys(uname);
-		}
-		public void setPassword(String pwd )
-		{
-			txtPassword.sendKeys(pwd);
-		}
-		public void clickSubmit()
-		{
-			btnLogin.click();
-		}
-		public void clickForgotPasswordLink()
-		{
-			linkForgotPassword.click();
+			func.pageLoad(ldriver);
+			txtEmail.sendKeys(user);
+			txtPassword.sendKeys(psswd);
+			btnSubmit.click();
 		}
 }
